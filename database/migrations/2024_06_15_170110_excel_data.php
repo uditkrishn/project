@@ -9,7 +9,7 @@ return new class extends Migration
     /**
      * Run the migrations.
      *
-     * @return void
+     * 
      */
     public function up(): void
     {
@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('scheme_code');
             $table->string('scheme_name');
             $table->string('central_state_scheme');
-            $table->integer('fin_year');
+            $table->string('fin_year');
             $table->float('state_disbursement')->nullable();
             $table->float('central_disbursement')->nullable();
             $table->float('total_disbursement')->nullable();
